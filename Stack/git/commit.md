@@ -29,3 +29,12 @@ git commit -m "这里写你这次改了什么"
 git push
 
 
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false
+}
