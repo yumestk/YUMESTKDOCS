@@ -27,7 +27,14 @@ git commit -m "这里写你这次改了什么"
 
 - 推送远程仓库  
 git push
-
+---
+# fork
+git clone 自己fork地址
+git remote add upstream 原仓库地址
+git fetch upstream
+git merge upstream/main
+git push origin 分支名
+---
 
 {
   "builder": {
